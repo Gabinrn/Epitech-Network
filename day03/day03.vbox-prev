@@ -6,7 +6,7 @@
 ** Use VBoxManage or the VirtualBox Manager GUI to make changes.
 -->
 <VirtualBox xmlns="http://www.virtualbox.org/" version="1.15-linux">
-  <Machine uuid="{bb40055c-2cbb-46d7-8dd9-8f3d79933806}" name="day03" OSType="Windows7_64" snapshotFolder="Snapshots" lastStateChange="2020-10-21T15:06:41Z">
+  <Machine uuid="{bb40055c-2cbb-46d7-8dd9-8f3d79933806}" name="day03" OSType="Windows7_64" snapshotFolder="Snapshots" lastStateChange="2020-10-22T16:05:39Z">
     <MediaRegistry>
       <HardDisks>
         <HardDisk uuid="{7ddf3bea-462f-4ca2-889e-f26107ad95ae}" location="day03.vdi" format="VDI" type="Normal"/>
@@ -17,8 +17,8 @@
     </MediaRegistry>
     <ExtraData>
       <ExtraDataItem name="GUI/LastCloseAction" value="PowerOff"/>
-      <ExtraDataItem name="GUI/LastGuestSizeHint" value="1360,768"/>
-      <ExtraDataItem name="GUI/LastNormalWindowPosition" value="395,180,800,644"/>
+      <ExtraDataItem name="GUI/LastGuestSizeHint" value="1352,768"/>
+      <ExtraDataItem name="GUI/LastNormalWindowPosition" value="374,254,1360,812"/>
     </ExtraData>
     <Hardware>
       <CPU>
@@ -30,7 +30,7 @@
       <HID Pointing="USBTablet"/>
       <Paravirt provider="Default"/>
       <Display controller="VBoxSVGA" VRAMSize="27"/>
-      <VideoCapture file="." fps="25"/>
+      <VideoCapture screens="1" file="." fps="25"/>
       <RemoteDisplay enabled="false"/>
       <BIOS>
         <IOAPIC enabled="true"/>
@@ -53,7 +53,7 @@
       <AudioAdapter controller="HDA" driver="Pulse" enabled="true" enabledIn="false"/>
       <Clipboard/>
       <GuestProperties>
-        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="fr_FR" timestamp="1603292801329697000" flags="RDONLYGUEST"/>
+        <GuestProperty name="/VirtualBox/HostInfo/GUI/LanguageID" value="fr_FR" timestamp="1603369309802360000" flags="RDONLYGUEST"/>
       </GuestProperties>
     </Hardware>
     <StorageControllers>
